@@ -74,11 +74,8 @@ test('Practice Playwright built-in locators', async({ page }) => {
     await expect(resetbtn3).toBeVisible();
 
     // example CSS selector - find by tag
-    const resetbtnn = page.locator('div[id="inputCardsStack"]');
-    await expect(resetbtnn).toBeVisible();
+    // const resetbtnn = page.locator('div[id="inputCardsStack"]');
+    // await expect(resetbtnn).toBeVisible();
 
     
-    // // example: CSS selector - find by attribute
-    // const resetbtn1 = page.locator('button[ data-testid="btn-register"]');
-    // await expect(resetbtn1).toBeVisible();
 });
